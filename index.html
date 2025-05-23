@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ananya Das | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --olive: #4F5843;
+      --rust: #B16748;
+      --beige: #F5EFE6;
+      --brown: #3E2C28;
+      --cream: #EEE9E3;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background-color: var(--beige);
+      color: var(--brown);
+    }
+
+    header {
+      background-color: var(--olive);
+      color: var(--cream);
+      text-align: center;
+      padding: 3rem 1rem 4rem;
+      border-bottom: 4px solid var(--rust);
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    main {
+      max-width: 900px;
+      margin: -2rem auto 2rem;
+      background-color: var(--cream);
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    h2 {
+      border-left: 6px solid var(--rust);
+      padding-left: 0.75rem;
+      color: var(--olive);
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: circle;
+      padding-left: 1.5rem;
+    }
+
+    a {
+      color: var(--rust);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--brown);
+      margin-top: 3rem;
+      padding-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ananya Das</h1>
+    <p>Mechatronics Engineering • Embedded Systems • Controls Systems </p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About</h2>
+      <p>I am an engineering student focused on embedded systems, data-driven tools, and practical applications of automation. My experience includes developing hardware and software systems for real-time monitoring, energy optimization, and smart resource management. I work at the intersection of electronics, code, and usability. I aim to build solutions that are reliable, efficient, and suited to real-world needs.</p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <p><li><strong>Solar Controller Dashboard:</strong> Built a real-time monitoring dashboard for the ProStar PS-15M solar controller using Modbus RTU communication. Used Python and Flask to collect, decode, and visualize data from battery, load, and charge controllers. Designed the system for Raspberry Pi, with features for historical data logging, voltage and current tracking, and battery health analysis. Focused on accuracy, usability, and system stability.</li></p>
+        <p><li><strong>Border Wait Time System:</strong> Developed a system to estimate border crossing wait times using Raspberry Pi and live camera feeds. Applied image processing techniques to detect and count vehicles in real time. Designed the hardware setup, implemented Python-based object detection, and tested accuracy under varied lighting and traffic conditions. Focused on improving reliability and responsiveness in data collection for transportation monitoring.</li></p>
+        <p><li><strong>MXET Letter Display:</strong> Designed a system that displays different letters and lights up LEDs based on input audio frequency and amplitude. Used signal processing techniques to analyze real-time audio input and map specific frequency ranges and volume levels to corresponding visual outputs. Programmed microcontroller logic to control LED behavior and character display, with an emphasis on timing accuracy and response sensitivity.</li></p>
+        <p><li><strong>Light-Reactive Crawling Microbug:</strong> Assembled and soldered a light-following robot using discrete components and analog signal control. Designed to move toward a light source using two LDRs, a transistor-based control system, and pulsed motor output. Built the full circuit on a perfboard, adjusted component values for sensor accuracy, and tested transistor behavior using oscilloscope and multimeter. Verified differential motor control based on light intensity for directional motion.</li></p>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <p><strong>Student Technician, Texas A&M Transportation Institute</strong><br>
+        Developed a solar controller monitoring system using the ProStar PS-15M and Raspberry Pi to assess when solar input was insufficient and battery voltage needed to be used. Implemented Modbus RTU communication with Python to collect real-time data on solar power levels, battery charge, and system switching behavior. </p>
+
+      <p><strong>Software Engineering Intern, Texas A&M Transportation Institute</strong><br>
+        Worked on a traffic monitoring project for the Texas Department of Transportation focused on the US-Mexico border. Used a hybrid of RFID and Bluetooth/WiFi technologies to detect slowdowns and congestion. Supported analysis and testing for a system that helps optimize travel routes for commercial goods transport.</p>
+      
+      <p><strong>Student Coordinator, International Student and Scholar Services, Texas A&M University</strong><br>
+        Assisted with event planning and coordination for J-1 scholars and their dependents. Helped manage logistics, scheduling, and communication for university-hosted programs that supported the international scholar community. </p>
+        
+      <p><strong>Undergraduate Researcher, CAMSIN Group, Texas A&M University</strong><br> 
+        Contributed to research in the Computer Architecture, Memory Systems and Interconnection Networks (CAMSIN) lab. Supported early-stage analysis and documentation for projects involving system performance, memory efficiency, and computing infrastructure. </p>
+
+      <p><strong>Data and Digital Intern, Protiviti</strong><br> 
+        Completed a summer internship focused on business process modeling and visualization. Used Bizagi Modeler to create process diagrams that outlined client reporting workflows. Helped translate technical and statistical insights into client-facing documentation. </p>
+        
+
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Python, C, HTML, CSS, JavaScript</li>
+        <li>Flask, GitHub, Figma, Arduino, Raspberry Pi</li>
+        <li>Modbus RTU, data visualization, basic ML (Sci-kit, NumPy)</li>
+        <li>PCB design, soldering, sensor integration</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:ananya.5076@gmail.com">ananya.5076@gmail.com</a><br>
+         GitHub: <a href="https://github.com/ananya-das-engr" target="_blank">github.com/ananya-das-engr</a><br>
+         Resume: <a href="ANANYA%20DAS%2004202025.pdf" target="_blank">Download PDF</a></p>
+    </section>
+  </main>
+
+  <footer>
+    Last updated May 2025
+  </footer>
+
+</body>
+</html>
